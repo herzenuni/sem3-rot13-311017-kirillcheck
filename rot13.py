@@ -17,7 +17,7 @@ my_file = open("some.txt", "r")
 my_string = my_file.read()
 my_file.close()
 
-my_file1 = open("some1.txt", "a+")
+my_file1 = open("some1.txt", "a+") #если такого еще нет то он будет создан 
 a = (rot13(my_string))
 my_file1.write(a)
 my_file1.write("\n")
